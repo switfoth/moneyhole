@@ -19,7 +19,8 @@ module.exports = {
         references: { model: "Users", key: "id" }
       },
       comment: {
-        type: Sequelize.STRING(500)
+        type: Sequelize.STRING(500),
+        allowNull: false
       },
       createdAt: {
         allowNull: false,

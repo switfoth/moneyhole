@@ -24,13 +24,16 @@ module.exports = {
         defaultValue: 0,
       },
       twitter: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: true
       },
       facebook: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: true
       },
       email: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false
       },
       endDate: {
         type: Sequelize.DATE,
