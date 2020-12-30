@@ -1,0 +1,52 @@
+.box {
+
+    margin-left: 0px;
+    max-width: 60%;
+
+}
+
+.project {
+    border-radius: 10px;
+    margin: 2px;
+    background-color: lightsteelblue;
+}
+
+.top-row {
+    background-color: turquoise;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.top-row-icon {
+    background-color: teal ;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    width: 60px;
+}
+
+.desc-spacer {
+    display: flex;
+    align-content: left;
+}
+
+.image-placeholder {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    height: 150px;
+    min-width: 250px;
+    margin: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.project-desc {
+    text-align: left;
+    margin: 5px;
+}

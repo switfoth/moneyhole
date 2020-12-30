@@ -21,16 +21,18 @@ function Navigation({ isLoaded }){
   }
 
   return (
-    <div className="navBar">
-      <div className="navButtons">
-        <div className="moneyholeLogo">
-          <NavLink exact to="/" >Moneyhole</NavLink>
-        </div>
-        <div className="profileLinks">
-          {isLoaded && sessionLinks}
+    <>
+      <div className="navBar">
+        <div className="navButtons">
+          <div className="moneyholeLogo">
+            <NavLink exact to="/" >Moneyhole</NavLink>
+          </div>
+          <div className="profileLinks">
+            {isLoaded && sessionLinks}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
-import './CommentBox.css'
+import './HomePageProjectUpdate.css'
 
-function CommentBox(){
+function HomePageProjectUpdate(){
 
     return(
         <div className="box">
@@ -9,4 +9,4 @@ function CommentBox(){
     )
 }
 
-export default CommentBox
+export default HomePageProjectUpdate
