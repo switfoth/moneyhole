@@ -3,6 +3,8 @@
     align-content: center;
     min-height: 60px;
     margin-top:0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .navButtons {
@@ -15,6 +17,7 @@
 }
 
 .moneyholeLogo {
+    font-size: larger;
 }
 
 .profileLinks {

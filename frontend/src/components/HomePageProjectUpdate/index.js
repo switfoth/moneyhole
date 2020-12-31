@@ -3,8 +3,10 @@ import './HomePageProjectUpdate.css'
 function HomePageProjectUpdate(){
 
     return(
-        <div className="box">
-            <h1>This is a Comment Box</h1>
+        <div className="homepage-project-update-box">
+            <div className="updates-header">
+                <h3>These are Project Updates</h3>
+            </div>
         </div>
     )
 }

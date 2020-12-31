@@ -1,10 +1,21 @@
 import './ProjectPage.css'
-
+import ProjectUpdate from '../ProjectUpdate'
+import GoalBox from '../GoalBox'
+import RewardBox from '../RewardBox'
 function ProjectPage(){
 
     return(
-        <div className="box">
-            <h1>This is a Project Page</h1>
+        <div className="reward-page">
+            <div className="project-page-top-row">
+                <div className="project-page-top-left">
+                    <h1>This is a Project Page</h1>
+                    <h2>There will be buttons for Updates and Comments above the description.</h2>
+                </div>
+                <div>
+                    <RewardBox/>
+                </div>
+            </div>
+            <GoalBox/>
         </div>
     )
 }

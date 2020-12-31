@@ -1,3 +1,10 @@
-.box {
+.reward-page {
     border: solid red 5px;
+}
+
+.project-page-top-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }

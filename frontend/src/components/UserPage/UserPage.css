@@ -1,3 +1,18 @@
-.box {
-    border: solid red 5px;
+.user-page {
+}
+
+.userpage-top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userpage-bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-update-modifier {
+    width: 6000px
 }

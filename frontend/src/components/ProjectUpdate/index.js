@@ -4,7 +4,7 @@ function ProjectUpdate(){
 
     return(
         <div className="box">
-            <h1>This is a Comment Box</h1>
+            <h1>This is a Project Update</h1>
         </div>
     )
 }

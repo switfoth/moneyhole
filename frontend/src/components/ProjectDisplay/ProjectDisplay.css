@@ -1,13 +1,14 @@
-.box {
-
+.project-display-box {
+    text-align: center;
     margin-left: 0px;
-    max-width: 60%;
+    max-width: 70%;
 
 }
 
 .project {
     border-radius: 10px;
     margin: 2px;
+    border-bottom-left-radius: 0px;
     background-color: lightsteelblue;
 }
 
@@ -19,6 +20,7 @@
     justify-content: space-between;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 .top-row-icon {

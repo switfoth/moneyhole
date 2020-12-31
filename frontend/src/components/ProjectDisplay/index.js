@@ -37,8 +37,8 @@ function ProjectDisplay(){
 
     return(
         <>
+            <div className="project-display-box">
             <h3>Check out some holes you can throw your money into!</h3>
-            <div className="box">
                 {projects.map(project=>{
                     return <div key={project.id} className="project">
                         <div className="top-row">
