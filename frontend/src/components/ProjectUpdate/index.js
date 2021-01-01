@@ -3,7 +3,7 @@ import './ProjectUpdate.css'
 function ProjectUpdate(){
 
     return(
-        <div className="box">
+        <div className="project-update-container">
             <h1>This is a Project Update</h1>
         </div>
     )

@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+}
+
 .homepage-display {
     display: flex;
     justify-content: space-between;
 }
 
 .site-wrapper {
-    background-color: white;
+}
+
+.root-class {
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }

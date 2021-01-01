@@ -30,7 +30,7 @@ function Root() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <Root className="root-class"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

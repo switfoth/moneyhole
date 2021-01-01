@@ -22,7 +22,6 @@ function App() {
 
   return (
     <>
-      <div className="background">
           <Navigation isLoaded={isLoaded}/>
             {isLoaded && (
               <div className="site-wrapper">
@@ -51,7 +50,6 @@ function App() {
                 </Switch>
               </div>
             )}
-      </div>
     </>
   );
 }

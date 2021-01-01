@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import ProfileButton from './ProfileButton';
 import './Navigation.css';
+import SearchBar from '../SearchBar';
 
 function Navigation({ isLoaded }){
   const sessionUser = useSelector(state => state.session.user);
@@ -23,14 +24,9 @@ function Navigation({ isLoaded }){
   return (
     <>
       <div className="navBar">
-        <div className="navButtons">
-          <div className="moneyholeLogo">
-            <NavLink exact to="/" >Moneyhole</NavLink>
-          </div>
-          <div className="profileLinks">
-            {isLoaded && sessionLinks}
-          </div>
-        </div>
+        <NavLink exact to="/" >Moneyhole</NavLink>
+        <SearchBar/>
+        {isLoaded && sessionLinks}
       </div>
     </>
   );
