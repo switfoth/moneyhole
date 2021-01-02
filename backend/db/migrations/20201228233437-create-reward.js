@@ -22,7 +22,8 @@ module.exports = {
         defaultValue: 0
       },
       remainingNumber: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        allowNull: true
       },
       createdAt: {
         allowNull: false,

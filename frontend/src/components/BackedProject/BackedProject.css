@@ -1,4 +1,5 @@
 .backed-project-container {
     border: solid black 1px;
     border-radius: 10px;
+    margin: 3%;
 }
