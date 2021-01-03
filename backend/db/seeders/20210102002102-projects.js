@@ -4,7 +4,7 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
       return queryInterface.bulkInsert('Projects', [{
         name: 'Ambitious RPG',
-        userId: 0,
+        userId: 1,
         fundingGoal: 100000,
         twitter: "@BigRpg",
         facebook: "FreeRoamRPG",
@@ -13,7 +13,7 @@ module.exports = {
       },
       {
         name: 'Old Pro making a solo project',
-        userId: 0,
+        userId: 1,
         fundingGoal: 5000,
         twitter: "@OldPro",
         facebook: "OldPro",
@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         name: 'Making a Sandwich',
-        userId: 0,
+        userId: 1,
         fundingGoal: 5,
         twitter: "@hungryperson",
         facebook: "steve",
@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         name: 'Super Original Webcomic!',
-        userId: 0,
+        userId: 1,
         fundingGoal: 5000,
         twitter: "@thoseunknowable",
         facebook: "thoseunknowable",

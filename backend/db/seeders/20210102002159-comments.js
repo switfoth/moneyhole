@@ -4,23 +4,23 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
       return queryInterface.bulkInsert('Comments', [
         {
-        projectId: 0,
-        userId: 0,
+        projectId: 1,
+        userId: 1,
         comment: "I can't wait for this to be completed!"
       },
         {
         projectId: 1,
-        userId: 0,
+        userId: 1,
         comment: "I can't wait for this to be completed!"
       },
         {
         projectId: 2,
-        userId: 0,
+        userId: 1,
         comment: "I can't wait for this to be completed!"
       },
         {
         projectId: 3,
-        userId: 0,
+        userId: 1,
         comment: "I can't wait for this to be completed!"
       },
     ], {});

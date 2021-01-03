@@ -4,19 +4,19 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
       return queryInterface.bulkInsert('PaymentMethods', [{
         methodName: 'Crapital One',
-        userId: 0,
+        userId: 1,
       },
       {
         methodName: 'Swells Farblows',
-        userId: 0,
+        userId: 1,
       },
       {
         methodName: 'Bank of the Worst',
-        userId: 0,
+        userId: 1,
       },
       {
         methodName: 'Paypal',
-        userId: 0,
+        userId: 1,
       }], {});
   },
 

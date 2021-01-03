@@ -7,19 +7,19 @@ module.exports = {
         name: "Demo",
         fundingAmount: 100000,
         goalDesc: "We can make a demo with this amount!",
-        projectId: 0,
+        projectId: 1,
       },
       {
         name: "Full Voice Acting",
         fundingAmount: 101000,
         goalDesc: "With this goal we can hire full voice talent!",
-        projectId: 0,
+        projectId: 1,
       },
       {
         name: "Map",
         fundingAmount: 500000,
         goalDesc: "We will include a map with physical copies of the game if we hit this goal!",
-        projectId: 0,
+        projectId: 1,
       },
       {
         name: "Full Color Comic",
