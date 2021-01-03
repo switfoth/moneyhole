@@ -4,6 +4,11 @@ import sessionReducer from './session.js'
 
 const rootReducer = combineReducers({
   session: sessionReducer,
+  project: projectReducer,
+  comment: commentReducer,
+  payment: paymentReducer,
+  reward: rewardReducer,
+  goal: goalReducer
 });
 
 let enhancer;
