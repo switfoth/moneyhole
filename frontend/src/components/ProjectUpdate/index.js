@@ -1,6 +1,8 @@
 import './ProjectUpdate.css'
+import {useSelector} from 'react-redux'
 
 function ProjectUpdate(){
+const update = useSelector(state => state.update)
 
     return(
         <div className="project-update-container">

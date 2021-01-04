@@ -1,6 +1,8 @@
 import './PaymentBox.css'
+import {useSelector} from 'react-redux'
 
 function PaymentBox(){
+const payment = useSelector(state => state.payment)
 
     return(
         <div className="box">

@@ -1,4 +1,5 @@
 import './GoalBox.css'
+import {useSelector} from 'react-redux'
 
 function GoalBox(){
 

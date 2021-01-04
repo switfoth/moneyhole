@@ -2,7 +2,10 @@ import './ProjectPage.css'
 import ProjectUpdate from '../ProjectUpdate'
 import GoalBox from '../GoalBox'
 import RewardBox from '../RewardBox'
+import {useSelector} from 'react-redux'
+
 function ProjectPage(){
+const project = useSelector(state => state.project)
 
     return(
         <div className="reward-page">

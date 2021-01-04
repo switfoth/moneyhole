@@ -1,4 +1,5 @@
 import './CommentBox.css'
+import {useSelector} from 'react-redux'
 
 function CommentBox(){
 

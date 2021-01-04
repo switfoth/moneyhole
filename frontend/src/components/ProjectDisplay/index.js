@@ -1,12 +1,14 @@
 import './ProjectDisplay.css'
+import {useSelector} from 'react-redux'
 
 function ProjectDisplay(){
+    const project = useSelector(state => state.project)
 
     return(
         <>
             <div className="project-display-box">
             <h3>Check out some holes you can throw your money into!</h3>
-                {projects.map(project=>{
+                {/* {projects.map(project=>{
                     return <div key={project.id} className="project">
                         <div className="top-row">
                             <div className="top-row-icon">
@@ -22,7 +24,7 @@ function ProjectDisplay(){
                             <h4 className="project-desc">{project.description}</h4>
                         </div>
                         </div>
-                })}
+                })} */}
             </div>
         </>
     )

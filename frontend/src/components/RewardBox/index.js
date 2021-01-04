@@ -1,6 +1,8 @@
 import './RewardBox.css'
+import {useSelector} from 'react-redux'
 
 function RewardBox(){
+const reward = useSelector(state => state.reward)
 
     return(
         <div className="reward-container">
