@@ -1,6 +1,12 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import sessionReducer from './session.js'
+import commentReducer from './comment.js'
+import projectReducer from './project.js'
+import paymentReducer from './payment.js'
+import rewardReducer from './reward.js'
+import goalReducer from './goal.js'
+import paymentMethodReducer from './paymentmethod.js'
 
 const rootReducer = combineReducers({
   session: sessionReducer,
@@ -8,7 +14,8 @@ const rootReducer = combineReducers({
   comment: commentReducer,
   payment: paymentReducer,
   reward: rewardReducer,
-  goal: goalReducer
+  goal: goalReducer,
+  paymentmethod: paymentMethodReducer,
 });
 
 let enhancer;
